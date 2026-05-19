@@ -1,0 +1,94 @@
+Troubleshooting Scenarios
+Scenario 1: Desktop Computer Not Powering On
+Problem Description
+
+A desktop computer in the Finance department fails to power on during working hours, preventing the employee from accessing company systems and performing daily tasks.
+
+Symptoms
+No power indicator lights
+Blank monitor screen
+No fan or hard drive noise
+Keyboard and mouse lights not turning on
+Possible Causes
+Faulty power cable
+Defective power supply unit (PSU)
+Power outage or faulty wall socket
+UPS malfunction
+Internal hardware failure
+Troubleshooting Steps
+Verify that the power cable is securely connected to both the computer and the wall socket.
+Test the wall socket using another device.
+Check whether the UPS is functioning correctly.
+Replace the power cable with a working cable.
+Open the desktop case and inspect for loose internal connections.
+Test the PSU using a PSU tester or replace it temporarily.
+Check for motherboard indicator lights.
+Resolution
+
+The faulty power cable was replaced, and the desktop powered on successfully.
+
+Scenario 2: No Internet Connectivity
+Problem Description
+
+Employees in the Sales and Marketing department are unable to access the internet, preventing them from using cloud applications, email services, and communication tools.
+
+Symptoms
+“No Internet Access” notification displayed
+Web pages failing to load
+Unable to access email or online systems
+Network icon showing disconnected status
+Wi-Fi connected but no internet available
+Possible Causes
+Router or modem failure
+DNS server issues
+Disconnected Ethernet cable
+ISP outage
+Incorrect IP configuration
+Network adapter malfunction
+Troubleshooting Steps
+Verify whether other devices are connected to the internet.
+Restart the router and modem.
+Check Ethernet cable connections.
+Run network diagnostics on the affected computer.
+Use commands such as:
+ipconfig
+ping 8.8.8.8
+ping google.com
+Flush DNS cache:
+ipconfig /flushdns
+Restart the network adapter.
+Contact the Internet Service Provider to confirm outages.
+Resolution
+
+The issue was caused by a disconnected Ethernet cable between the router and switch. Reconnecting the cable restored internet connectivity.
+
+Scenario 3: Printer Offline
+Problem Description
+
+Employees are unable to print documents because the shared office printer appears offline on all connected computers.
+
+Symptoms
+Printer status showing “Offline”
+Print jobs stuck in queue
+Error messages when printing
+Printer not responding to print requests
+Printer unavailable on the network
+Possible Causes
+Printer disconnected from the network
+Incorrect printer driver installation
+IP address conflict
+Print spooler service failure
+Paper jam or low toner
+Printer queue stuck
+Troubleshooting Steps
+Ensure the printer is powered on.
+Check network or USB cable connections.
+Restart the printer.
+Verify the printer’s IP address configuration.
+Restart the Print Spooler service.
+Clear the print queue.
+Reinstall or update printer drivers.
+Print a test page to confirm functionality.
+Resolution
+
+The print queue was cleared, and the printer driver was reinstalled. Printing services returned to normal operation. 
