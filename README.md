@@ -1,7 +1,7 @@
 # Ubuntu-IT-Support
 
 ## Project Overview
-This repository contains the Week 1 tasks for the IT Infrastructure and Support Planning Project for Ubuntu Innovations (Pty) Ltd.
+This repository contains the Week 1 and Week 2 tasks for the IT Infrastructure and Support Planning Project for Ubuntu Innovations (Pty) Ltd.
 
 The purpose of this project is to design and document a secure, scalable, and efficient IT infrastructure solution for a growing technology startup relocating to a new office in Cape Town.
 
