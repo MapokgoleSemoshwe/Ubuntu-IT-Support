@@ -221,7 +221,7 @@ The architecture supports secure communication, centralized management, and futu
 
 ### Network Topology
 
-```text
+
 Internet (ISP)
       │
 Router / Firewall
@@ -233,7 +233,7 @@ Router / Firewall
  ├── Network Printers
  ├── NAS Storage
  └── Wireless Access Points
-```
+
 
 ---
 
@@ -482,10 +482,5 @@ Ubuntu-IT-Support-Capstone/
 
 # Author
 
-**Ntando Badla**
+**Semoshwe Mapokgole** , **Sibahle Lottering** & **Ntando Badla**
 
-ICT Application Development Graduate
-
-IT Support & Software Development Enthusiast
-
-Cape Town, South Africa
