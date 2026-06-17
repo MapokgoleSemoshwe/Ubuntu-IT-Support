@@ -23,6 +23,13 @@
 - [Project Outcomes](#project-outcomes)
 - [Repository Structure](#repository-structure)
 - [Author](#author)
+
+# Ubuntu-IT-Support-Capstone
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Project](https://img.shields.io/badge/Project-IT%20Support-blue)
+![Security](https://img.shields.io/badge/Cybersecurity-Included-red)
+![Documentation](https://img.shields.io/badge/Documentation-Complete-green)
 ## Project Overview
 
 This repository contains the complete IT Support Capstone Project for Ubuntu Innovations (Pty) Ltd. The project demonstrates the planning, design, implementation, security, support, and documentation of a modern IT infrastructure solution for a growing technology company relocating to a new office in Cape Town, South Africa.
