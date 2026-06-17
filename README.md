@@ -1,5 +1,28 @@
 # Ubuntu-IT-Support-Capstone
+# Table of Contents
 
+- [Project Overview](#project-overview)
+- [Project Objectives](#project-objectives)
+- [Company Information](#company-information)
+- [Organizational Structure](#organizational-structure)
+- [Business Requirements Analysis](#business-requirements-analysis)
+- [Hardware Inventory](#hardware-inventory)
+- [Software Inventory](#software-inventory)
+- [Network Design](#network-design)
+- [IP Addressing Plan](#ip-addressing-plan)
+- [User Permissions Matrix](#user-permissions-matrix)
+- [Shared Folder Structure](#shared-folder-structure)
+- [Software Deployment Plan](#software-deployment-plan)
+- [Linux Administration Guide](#linux-administration-guide)
+- [Backup and Disaster Recovery Plan](#backup-and-disaster-recovery-plan)
+- [Cybersecurity Policy](#cybersecurity-policy)
+- [Risk Assessment Matrix](#risk-assessment-matrix)
+- [Incident Response Plan](#incident-response-plan)
+- [Troubleshooting Documentation](#troubleshooting-documentation)
+- [Career Readiness](#career-readiness)
+- [Project Outcomes](#project-outcomes)
+- [Repository Structure](#repository-structure)
+- [Author](#author)
 ## Project Overview
 
 This repository contains the complete IT Support Capstone Project for Ubuntu Innovations (Pty) Ltd. The project demonstrates the planning, design, implementation, security, support, and documentation of a modern IT infrastructure solution for a growing technology company relocating to a new office in Cape Town, South Africa.
