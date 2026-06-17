@@ -4,9 +4,37 @@
 ![Project](https://img.shields.io/badge/Project-IT%20Support-blue)
 ![Security](https://img.shields.io/badge/Cybersecurity-Included-red)
 ![Documentation](https://img.shields.io/badge/Documentation-Complete-green)
+
+## Project Overview
+
+This repository contains the complete IT Support Capstone Project for Ubuntu Innovations (Pty) Ltd. The project demonstrates the planning, design, implementation, security, support, and documentation of a modern IT infrastructure solution for a growing technology company relocating to a new office in Cape Town, South Africa.
+
+The purpose of this project is to apply IT Support best practices to create a secure, scalable, reliable, and cost-effective technology environment that supports daily business operations, protects company information, and ensures business continuity.
+
+The project covers infrastructure planning, hardware and software recommendations, networking, system administration, cybersecurity, backup and disaster recovery, troubleshooting, and professional career readiness activities.
+
+---
+
+# Skills Demonstrated
+
+- IT Support
+- Network Design
+- System Administration
+- Cybersecurity
+- Backup and Disaster Recovery
+- Risk Management
+- Incident Response
+- Troubleshooting
+- Linux Administration
+- Technical Documentation
+- Business Requirements Analysis
+
+---
+
 # Table of Contents
 
 - [Project Overview](#project-overview)
+- [Skills Demonstrated](#skills-demonstrated)
 - [Project Objectives](#project-objectives)
 - [Company Information](#company-information)
 - [Organizational Structure](#organizational-structure)
@@ -14,6 +42,7 @@
 - [Hardware Inventory](#hardware-inventory)
 - [Software Inventory](#software-inventory)
 - [Network Design](#network-design)
+- [Project Screenshots](#project-screenshots)
 - [IP Addressing Plan](#ip-addressing-plan)
 - [User Permissions Matrix](#user-permissions-matrix)
 - [Shared Folder Structure](#shared-folder-structure)
@@ -25,17 +54,11 @@
 - [Incident Response Plan](#incident-response-plan)
 - [Troubleshooting Documentation](#troubleshooting-documentation)
 - [Career Readiness](#career-readiness)
+- [Technologies and Concepts Used](#technologies-and-concepts-used)
+- [Future Improvements](#future-improvements)
 - [Project Outcomes](#project-outcomes)
 - [Repository Structure](#repository-structure)
 - [Author](#author)
-
-## Project Overview
-
-This repository contains the complete IT Support Capstone Project for Ubuntu Innovations (Pty) Ltd. The project demonstrates the planning, design, implementation, security, support, and documentation of a modern IT infrastructure solution for a growing technology company relocating to a new office in Cape Town, South Africa.
-
-The purpose of this project is to apply IT Support best practices to create a secure, scalable, reliable, and cost-effective technology environment that supports daily business operations, protects company information, and ensures business continuity.
-
-The project covers infrastructure planning, hardware and software recommendations, networking, system administration, cybersecurity, backup and disaster recovery, troubleshooting, and professional career readiness activities.
 
 ---
 
@@ -53,8 +76,6 @@ The proposed solution aims to:
 - Establish backup and disaster recovery procedures.
 - Create professional IT support documentation.
 - Demonstrate practical networking, troubleshooting, and system administration skills.
-
-This project also serves as evidence of technical competency in IT Support, Network Administration, Cybersecurity, and Business Technology Management.
 
 ---
 
@@ -91,36 +112,30 @@ Ubuntu Innovations is a growing technology startup that requires a secure and sc
 | Software Development | 8 |
 | **Total** | **25** |
 
-Each department has unique technology requirements and access permissions that must be considered when designing the IT infrastructure.
-
 ---
 
 # Business Requirements Analysis
 
 ## Business Needs
 
-Ubuntu Innovations requires a modern technology environment capable of supporting daily business operations while maintaining security, efficiency, and reliability.
-
 The organization requires:
 
 - Secure internet connectivity
 - Wired and wireless networking
-- Shared storage and file access
+- Shared storage
 - Shared printing services
 - Department-based access controls
 - Antivirus and endpoint protection
 - Backup and disaster recovery capabilities
 - Cybersecurity policies
-- Professional IT documentation
+- Technical documentation
 
 ## Security Requirements
 
-The company handles confidential employee records, financial information, business documents, and software development projects.
-
-To protect these assets, the organization requires:
+To protect organizational assets, the company requires:
 
 - Multi-Factor Authentication (MFA)
-- Encryption of sensitive data
+- Encryption
 - Antivirus protection
 - Firewall security
 - User access controls
@@ -129,119 +144,56 @@ To protect these assets, the organization requires:
 
 ## Operational Challenges
 
-Potential operational challenges include:
-
-### Rapid Business Growth
-
-As the company expands, additional users, devices, and services will increase demand on IT resources.
-
-### Cybersecurity Threats
-
-Modern organizations face threats such as phishing attacks, ransomware, malware infections, and unauthorized access attempts.
-
-### Data Loss Risks
-
-Hardware failures, accidental deletions, and cyberattacks may result in loss of critical business information.
-
-### Network Downtime
-
-Internet outages and equipment failures can impact employee productivity and customer service.
-
-The proposed infrastructure is designed to address these challenges while supporting future growth.
+- Rapid business growth
+- Cybersecurity threats
+- Data loss risks
+- Network downtime
+- Access management complexity
 
 ---
 
 # Hardware Inventory
 
-The following hardware is recommended to support business operations.
-
 | Asset | Quantity | Specification | Business Justification |
 |---------|---------|---------|---------|
-| Desktop PCs | 20 | Intel Core i5, 16GB RAM, 512GB SSD | Supports office productivity and daily business operations |
-| Laptops | 5 | Intel Core i7, 16GB RAM, SSD | Provides mobility for Executive Management |
-| Router/Firewall | 1 | Business-grade firewall router | Secures network traffic and internet access |
-| Managed Switch | 1 | 24-Port Gigabit Managed Switch | Supports centralized network connectivity and future VLAN implementation |
-| Wireless Access Points | 2 | Wi-Fi 6 Access Points | Provides secure wireless coverage throughout the office |
-| Network Printers | 2 | Laser Printers | Enables shared printing services |
-| NAS Storage | 1 | RAID-enabled NAS Device | Centralized file storage and backup management |
-| UPS Systems | 2 | 1500VA UPS | Protects critical equipment from power outages |
-
-## Hardware Justification
-
-### Desktop Computers
-
-Twenty desktop computers are recommended for employees who primarily perform office-based tasks. The Intel Core i5 processor, 16GB RAM, and SSD storage provide sufficient performance for productivity applications, collaboration tools, and business operations.
-
-### Laptops
-
-Five laptops are allocated to Executive Management to provide flexibility and support remote work, travel, and meetings outside the office.
-
-### Managed Switch
-
-A 24-Port Managed Gigabit Switch was selected to provide centralized connectivity, network monitoring, traffic management, and future scalability through VLAN implementation.
-
-### NAS Storage
-
-The NAS device serves as centralized storage for company files and backups, ensuring data availability and supporting disaster recovery operations.
+| Desktop PCs | 20 | Intel Core i5, 16GB RAM, 512GB SSD | Office productivity |
+| Laptops | 5 | Intel Core i7, 16GB RAM | Management mobility |
+| Router/Firewall | 1 | Business-grade firewall router | Internet security |
+| Managed Switch | 1 | 24-Port Gigabit Managed Switch | Centralized connectivity |
+| Wireless Access Points | 2 | Wi-Fi 6 | Wireless coverage |
+| Network Printers | 2 | Laser Printers | Shared printing |
+| NAS Storage | 1 | RAID-enabled NAS | Backup and storage |
+| UPS Systems | 2 | 1500VA | Power protection |
 
 ---
 
 # Software Inventory
 
-The organization requires both company-wide and department-specific software solutions.
-
 ## Company-Wide Software
 
-| Software | Purpose | License Type |
-|----------|----------|----------|
-| Windows 11 Pro | Operating System | Per Device |
-| Microsoft 365 | Productivity Suite | Subscription |
-| Microsoft Teams | Communication and Collaboration | Subscription |
-| Zoom | Video Conferencing | Subscription |
-| Microsoft Defender | Antivirus Protection | Included |
-| Google Chrome | Web Browsing | Free |
-
-### Microsoft 365
-
-Microsoft 365 provides Word, Excel, PowerPoint, Outlook, Teams, and OneDrive. These applications support communication, collaboration, document management, and cloud storage.
-
-### Microsoft Teams
-
-Microsoft Teams enables messaging, video conferencing, collaboration, and file sharing across departments.
-
----
+| Software | Purpose |
+|----------|----------|
+| Windows 11 Pro | Operating System |
+| Microsoft 365 | Productivity |
+| Microsoft Teams | Collaboration |
+| Zoom | Video Conferencing |
+| Microsoft Defender | Security |
+| Google Chrome | Web Access |
 
 ## Department-Specific Software
 
-### Finance Department
+### Finance
 
 - Sage Accounting
 - Microsoft Excel
-
-Purpose:
-- Payroll processing
-- Financial reporting
-- Budget management
-- Expense tracking
 
 ### Human Resources
 
 - HR Management System
 
-Purpose:
-- Employee records
-- Leave management
-- Recruitment tracking
-- Performance management
-
 ### Sales & Marketing
 
 - CRM Software
-
-Purpose:
-- Customer relationship management
-- Sales tracking
-- Lead management
 
 ### Software Development
 
@@ -249,37 +201,27 @@ Purpose:
 - GitHub
 - Docker
 
-Purpose:
-- Software development
-- Version control
-- Collaboration
-- Application deployment
-
 ---
 
 # Network Design
 
-The network architecture was designed to provide secure and reliable communication between all devices within the organization.
+The network architecture was designed to provide secure, reliable, and scalable connectivity across the organization.
 
-Network connectivity begins with the Internet Service Provider (ISP) connection.
+Traffic enters through a business-grade firewall router and is distributed through a managed switch to all network devices.
 
-Traffic passes through a firewall-enabled router that protects the organization from external threats while managing internet access.
+The architecture supports secure communication, centralized management, and future expansion.
 
-A 24-Port Managed Gigabit Switch connects:
+---
 
-- Desktop computers
-- Laptops
-- Network printers
-- NAS storage
-- Wireless access points
+# Project Screenshots
 
-Wireless Access Points provide secure Wi-Fi access to employees while supporting future guest network implementation.
+## Network Diagram
 
-The NAS device provides centralized file storage and backup services.
+![Network Diagram](Network-Diagrams/network-diagram.png)
 
-## Network Topology
+### Network Topology
 
-
+```text
 Internet (ISP)
       │
 Router / Firewall
@@ -291,42 +233,29 @@ Router / Firewall
  ├── Network Printers
  ├── NAS Storage
  └── Wireless Access Points
-
-
-### Network Design Benefits
-
-- Improved security
-- Centralized management
-- Scalability for future growth
-- Efficient resource sharing
-- Simplified troubleshooting
+```
 
 ---
 
 # IP Addressing Plan
 
-Network segmentation has been implemented to improve security, traffic management, and troubleshooting efficiency.
-
 | Network | Subnet | Purpose |
 |----------|----------|----------|
-| Servers & NAS | 192.168.10.0/24 | Storage and backup systems |
-| User Devices | 192.168.20.0/24 | Employee workstations and laptops |
-| Printers | 192.168.30.0/24 | Shared printing devices |
-| Wireless Network | 192.168.40.0/24 | Wi-Fi connected devices |
+| Servers & NAS | 192.168.10.0/24 | Backup and storage |
+| User Devices | 192.168.20.0/24 | Employee workstations |
+| Printers | 192.168.30.0/24 | Shared printing |
+| Wireless Network | 192.168.40.0/24 | Wi-Fi devices |
 
-## Benefits of Network Segmentation
+### Benefits
 
 - Improved security
 - Easier troubleshooting
-- Reduced network congestion
 - Better traffic management
-- Simplified administration
+- Reduced congestion
 
 ---
 
 # User Permissions Matrix
-
-Role-Based Access Control (RBAC) is implemented to ensure employees only access information required for their job responsibilities.
 
 | Department | Security Group | Access Level |
 |------------|------------|------------|
@@ -335,13 +264,6 @@ Role-Based Access Control (RBAC) is implemented to ensure employees only access 
 | Human Resources | hr_grp | HR Folder |
 | Sales & Marketing | sales_grp | Sales Folder |
 | Software Development | dev_grp | Development Folder |
-
-### Access Control Benefits
-
-- Protects sensitive information
-- Reduces insider threats
-- Supports compliance requirements
-- Simplifies user management
 
 ---
 
@@ -357,145 +279,68 @@ Role-Based Access Control (RBAC) is implemented to ensure employees only access 
 └── Management
 ```
 
-Each department has access only to authorized folders while all employees may access the Public folder.
-
-This structure improves organization, security, and collaboration.
-
 ---
 
 # Software Deployment Plan
 
-Software deployment will be managed centrally to ensure consistency across all company devices.
+Deployment includes:
 
-The deployment process includes:
-
-- Operating system installation
-- Productivity software installation
-- Antivirus deployment
+- Operating systems
+- Security software
+- Productivity software
 - Department-specific applications
-- Security updates
 
-## Update Strategy
-
-- Critical security patches: Within 48 hours
-- Monthly maintenance updates
-- Automatic antivirus signature updates
-
-This approach ensures systems remain secure and up to date.
+Updates are performed monthly while critical security patches are deployed within 48 hours.
 
 ---
 
 # Linux Administration Guide
 
-The following Linux commands are commonly used by system administrators:
-
 | Command | Purpose |
 |----------|----------|
-| pwd | Display current directory |
-| ls | List files and folders |
+| pwd | Current directory |
+| ls | List files |
 | cd | Change directory |
-| mkdir | Create directories |
-| touch | Create files |
+| mkdir | Create folder |
+| touch | Create file |
 | chmod | Modify permissions |
 | chown | Change ownership |
-| ps | View running processes |
-| top | Monitor system performance |
-| apt install | Install software packages |
-
-These commands assist with file management, software installation, user administration, and system monitoring.
+| ps | View processes |
+| top | Monitor resources |
+| apt install | Install software |
 
 ---
 
 # Backup and Disaster Recovery Plan
 
-Data protection is critical to business continuity.
+## Backup Schedule
 
-## Backup Strategy
-
-### Daily Incremental Backups
-
-Only changed files are backed up each day, reducing storage requirements and backup times.
-
-### Weekly Full Backups
-
-A complete copy of organizational data is created every week.
-
-### Monthly Archive Backups
-
-Long-term backups are retained for historical and compliance purposes.
-
-### Offsite Cloud Backup
-
-Backup copies are stored in cloud storage to protect against physical disasters affecting the office.
+| Backup Type | Frequency |
+|------------|------------|
+| Incremental Backup | Daily |
+| Full Backup | Weekly |
+| Archive Backup | Monthly |
+| Cloud Backup | Offsite |
 
 ## Recovery Objectives
 
-### Recovery Time Objective (RTO)
+**RTO:** 4 Hours
 
-4 Hours
-
-The maximum acceptable downtime before systems are restored.
-
-### Recovery Point Objective (RPO)
-
-24 Hours
-
-The maximum acceptable amount of data loss.
-
-## Recovery Procedure
-
-1. Identify the incident.
-2. Verify available backups.
-3. Restore affected systems.
-4. Validate data integrity.
-5. Resume business operations.
-6. Document recovery actions.
+**RPO:** 24 Hours
 
 ---
 
 # Cybersecurity Policy
 
-Cybersecurity controls are implemented to protect systems, users, and business information.
+Security controls include:
 
-## Password Policy
-
-- Minimum 12 characters
-- Uppercase letters
-- Lowercase letters
-- Numbers
-- Special characters
-- Password changes every 90 days
-
-## Multi-Factor Authentication
-
-MFA is required for:
-
-- Email accounts
-- Administrative accounts
-- Remote access systems
-
-## Encryption
-
-Sensitive information is encrypted:
-
-- During storage
-- During transmission
-- On company laptops
-
-## Antivirus Protection
-
-Microsoft Defender provides:
-
-- Real-time threat detection
-- Malware protection
-- Ransomware protection
-- Automatic updates
-
-## Patch Management
-
-- Critical patches within 48 hours
-- Monthly system updates
-- Regular vulnerability remediation
+- Multi-Factor Authentication
+- Password Policy
+- Device Encryption
+- Microsoft Defender Antivirus
+- Firewall Protection
+- Patch Management
+- Security Awareness Training
 
 ---
 
@@ -503,119 +348,122 @@ Microsoft Defender provides:
 
 | Risk | Likelihood | Impact | Mitigation |
 |---------|---------|---------|---------|
-| Phishing Attack | High | High | Security Awareness Training |
-| Ransomware | Medium | High | Backups and Antivirus |
-| Hardware Failure | Medium | Medium | Redundant Equipment |
+| Phishing | High | High | Awareness Training |
+| Ransomware | Medium | High | Backups |
+| Hardware Failure | Medium | Medium | Redundancy |
 | Power Outage | Medium | High | UPS Systems |
-| Data Breach | Medium | High | MFA and Encryption |
-| Internet Outage | Medium | Medium | ISP Redundancy |
-
-Risk management reduces business disruption and improves operational resilience.
+| Data Breach | Medium | High | MFA & Encryption |
 
 ---
 
 # Incident Response Plan
 
-The organization follows a structured incident response process.
-
-## Stages
-
-### 1. Detection
-
-Identify unusual or suspicious activity.
-
-### 2. Reporting
-
-Report incidents to IT support immediately.
-
-### 3. Containment
-
-Prevent further damage.
-
-### 4. Eradication
-
-Remove the threat.
-
-### 5. Recovery
-
-Restore systems and services.
-
-### 6. Lessons Learned
-
-Review the incident and improve security controls.
+1. Detection
+2. Reporting
+3. Containment
+4. Eradication
+5. Recovery
+6. Lessons Learned
 
 ---
 
 # Troubleshooting Documentation
 
-Standardized troubleshooting procedures help IT staff quickly resolve common technical issues.
+Documented scenarios include:
 
-## Documented Scenarios
+- Desktop Not Powering On
+- No Internet Connectivity
+- Printer Offline
 
-### Desktop Not Powering On
+Each guide contains:
 
-Includes:
+- Problem Description
 - Symptoms
-- Causes
-- Diagnostic procedures
+- Root Causes
+- Troubleshooting Procedures
 - Resolution
-
-### No Internet Connectivity
-
-Includes:
-- Symptoms
-- Causes
-- Troubleshooting steps
-- Resolution
-
-### Printer Offline
-
-Includes:
-- Symptoms
-- Causes
-- Troubleshooting steps
-- Resolution
-
-These procedures reduce downtime and improve support efficiency.
 
 ---
 
 # Career Readiness
 
-This project also includes professional career development materials:
+Included in this project:
 
-- Professional Resume (CV)
+- Professional CV
 - Cover Letter
-- LinkedIn Summary
-- LinkedIn Project Post
-- Interview Preparation Questions and Answers
+- LinkedIn Post
+- Interview Preparation
 
-These materials demonstrate readiness for entry-level IT Support roles.
+---
+
+# Technologies and Concepts Used
+
+## Operating Systems
+
+- Windows 11 Pro
+- Ubuntu Linux
+
+## Networking
+
+- TCP/IP
+- DHCP
+- DNS
+- Network Segmentation
+- VLAN Concepts
+
+## Security
+
+- MFA
+- Encryption
+- Microsoft Defender
+- Firewall Management
+
+## Productivity
+
+- Microsoft 365
+- Microsoft Teams
+
+## Development Tools
+
+- GitHub
+- Visual Studio Code
+- Docker
+
+---
+
+# Future Improvements
+
+Future enhancements include:
+
+- Active Directory
+- VLAN Implementation
+- Network Monitoring
+- SIEM Integration
+- Cloud Expansion
+- Security Audits
+- Disaster Recovery Testing
 
 ---
 
 # Project Outcomes
 
-This project successfully demonstrates the ability to:
+This project demonstrates the ability to:
 
 - Analyze business requirements
-- Design network infrastructure
-- Recommend hardware and software solutions
-- Implement access control strategies
-- Develop cybersecurity policies
-- Create backup and disaster recovery plans
-- Assess organizational risks
-- Develop incident response procedures
-- Troubleshoot common IT issues
-- Create professional technical documentation
+- Design secure network infrastructure
+- Implement cybersecurity controls
+- Develop backup and disaster recovery plans
+- Assess risks
+- Create troubleshooting procedures
+- Produce professional technical documentation
 
-The final solution provides Ubuntu Innovations with a secure, scalable, and reliable IT environment capable of supporting both current operations and future business growth.
+The final solution provides Ubuntu Innovations with a secure, scalable, and reliable IT environment capable of supporting both current operations and future growth.
 
 ---
 
 # Repository Structure
 
-
+```text
 Ubuntu-IT-Support-Capstone/
 │
 ├── Documentation/
@@ -628,13 +476,10 @@ Ubuntu-IT-Support-Capstone/
 ├── Presentation/
 ├── Career-Readiness/
 └── Final-Report/
-
+```
 
 ---
 
 # Author
 
 **Ntando Badla**,**Semoshwe Mapokgole** & **Sibahle Lottering**
-
-
-
