@@ -309,6 +309,6 @@ The project provides a complete IT infrastructure solution that aligns with indu
 ---
 
 # Authors
-Semoshwe Mapokgole
-Sibahle Lottering
+Semoshwe Mapokgole,
+Sibahle Lottering &
 Ntando Badla
