@@ -1,301 +1,314 @@
-# Ubuntu-IT-Support
+# Ubuntu-IT-Support-Capstone
 
 ## Project Overview
-This repository contains the Week 1 and Week 2 tasks for the IT Infrastructure and Support Planning Project for Ubuntu Innovations (Pty) Ltd.
 
-The purpose of this project is to design and document a secure, scalable, and efficient IT infrastructure solution for a growing technology startup relocating to a new office in Cape Town.
+This repository contains the complete IT Support Capstone Project for Ubuntu Innovations (Pty) Ltd.
 
-Week 1 focuses on understanding the business requirements, organizational structure, operational needs, and core IT infrastructure requirements necessary to support company operations.
+The project demonstrates the planning, design, implementation, documentation, security, support, and presentation of a comprehensive IT infrastructure solution for a growing technology company relocating to a new office in Cape Town, South Africa.
 
-## Company Information
-### Organization Name
+The objective of the project is to apply core IT Support, Networking, System Administration, Cybersecurity, Troubleshooting, Backup and Recovery, and Professional Documentation skills in a real-world business scenario.
+
+The solution was designed to provide a secure, scalable, reliable, and cost-effective IT environment that supports daily business operations while protecting company assets and data.
+
+---
+
+# Project Objectives
+
+The project aims to:
+
+* Design a secure and scalable IT infrastructure.
+* Support 25 employees across multiple departments.
+* Implement secure wired and wireless networking.
+* Establish access control and user management procedures.
+* Develop cybersecurity policies and best practices.
+* Create backup and disaster recovery procedures.
+* Develop troubleshooting documentation.
+* Demonstrate professional IT support documentation and presentation skills.
+
+---
+
+# Company Information
+
+## Organization Name
+
 Ubuntu Innovations (Pty) Ltd
 
-### Location
-Cape Town
+## Location
 
-### Industry
+Cape Town, South Africa
+
+## Industry
+
 Technology / Software Development
 
-### Total Employees
+## Total Employees
+
 25 Employees
 
-## Organizational Structure
+---
+
+# Organizational Structure
 
 | Department           | Number of Employees |
 | -------------------- | ------------------- |
 | Executive Management | 3                   |
 | Finance              | 4                   |
 | Human Resources      | 3                   |
-| Sales and Marketing  | 7                   |
+| Sales & Marketing    | 7                   |
 | Software Development | 8                   |
 | **Total**            | **25**              |
 
-## Business Applications Required
-To support company operations, several software applications and services are required.
-### Productivity and Collaboration Applications
-#### Office Productivity Suite
-
-Recommended:
-- Microsoft 365 or Google Workspace
-  
-Functions:
-- Email communication.
-- Document creation.
-- Spreadsheets and presentations.
-- Shared calendars and meetings.
-- Team collaboration.
-
-#### Communication Tools
-
-Recommended:
-- Microsoft Teams
-- Slack
-  
-Functions
-- Instant messaging.
-- Video conferencing.
-- Team collaboration.
-- File sharing.
-
-#### Finance Applications
-
-Recommended:
-
-- Sage Accounting
-- QuickBooks
-  
-Functions
-- Payroll processing.
-- Financial reporting.
-- Expense management.
-- Budgeting.
-  
-#### Human Resource Applications
-
-Recommended:
-- HR management software for:
-- Employee records.
-- Leave management.
-- Recruitment tracking.
-- Performance management.
-  
-#### Development Tools
-
-Recommended
-
-- GitHub or GitLab
-- Visual Studio Code
-- IntelliJ IDEA
-  
-Functions
-- Source code management.
-- Collaboration between developers.
-- Version control.
-- Software testing and deployment.
-  
-#### Security Applications
+---
 
-Required:
+# Project Deliverables
 
-- Antivirus software.
-- Endpoint detection and response (EDR).
-- Firewall management software.
-- Backup software.
+## Week 1 – IT Infrastructure Planning
 
-Examples:
+### Business Requirements Analysis
 
-- Microsoft Defender
-- Bitdefender
+* Company overview
+* Operational requirements
+* Security requirements
+* Connectivity requirements
+* Business challenges
 
-## Data Security Requirements
-Data security is critical because the organization handles confidential employee, financial, and business information.
+### Hardware Inventory
 
-### User Authentication and Access Control
+* Desktop PCs
+* Laptops
+* Router and Firewall
+* Managed Switches
+* Wireless Access Points
+* Printers
+* NAS Storage
+* UPS Systems
 
-The company should implement:
+### Software Inventory
 
-- Unique usernames and passwords for all employees.
-- Multi-factor authentication (MFA).
-- Department-based access permissions.
-- Role-based access control (RBAC).
+* Operating Systems
+* Productivity Software
+* Security Software
+* Communication Platforms
+* Development Tools
 
-### Antivirus and Endpoint Security
+### Network Design
 
-All company devices must include:
+* Network topology
+* Device connectivity
+* Internet connectivity
+* Security controls
 
-- Antivirus protection.
-- Anti-malware software.
-- Real-time threat monitoring.
-- Automatic security updates.
-  
-### Firewall Protection
+### Troubleshooting Guide
 
-The network should include:
+* Desktop not powering on
+* No internet connectivity
+* Printer offline
 
-- Hardware firewall.
-- Network traffic monitoring.
-- Intrusion prevention systems.
-  
-### Data Backup and Recovery
+---
 
-The organization must implement:
+## Week 2 – Operating Systems and Administration
 
-- Daily automatic backups.
-- Cloud and local backups.
-- Disaster recovery procedures.
-- Backup testing and verification.
+### User Permissions Matrix
 
-Recommended backup strategy:
+* Department-based access control
+* Security groups
+* Role-based permissions
 
--Incremental daily backups.
--Full weekly backups.
--Off-site/cloud backup storage.
+### Shared Folder Structure
 
-### Encryption
+* Public folder
+* Department-specific folders
+* Access restrictions
 
-Sensitive data should be encrypted:
+### Linux Administration Guide
 
-- During storage.
-- During transmission over the network.
-- On laptops and portable devices.
+Commands covered:
 
-### Security Policies
+* pwd
+* ls
+* cd
+* mkdir
+* touch
+* chmod
+* chown
+* ps
+* top
+* apt install
 
-The company should establish policies for:
+### Software Deployment Plan
 
-- Password complexity.
-- Acceptable internet usage.
-- Email security.
-- Remote access.
-- Device management.
-- Incident reporting.
+* Company-wide software deployment
+* Department-specific software
+* Licensing considerations
+* Patch management
 
-## Connectivity Needs
-The organization requires reliable and secure connectivity to support business operations.
+### IP Addressing Plan
 
-### Wired Network Connectivity
+* Server network
+* User device network
+* Printer network
+* Wireless network
 
-The office should include:
+---
 
-- Gigabit Ethernet connections.
-- Structured cabling (Cat6 or higher).
-- Network switches for each department.
-- Secure server room/network cabinet.
+## Week 3 – Cybersecurity and Business Continuity
 
-### Wireless Connectivity
+### Backup and Disaster Recovery Plan
 
-The company requires:
+* Daily incremental backups
+* Weekly full backups
+* Monthly archive backups
+* Cloud backup strategy
+* Recovery procedures
+* RTO and RPO objectives
 
-- Secure Wi-Fi for employees.
-- Separate guest Wi-Fi network.
-- WPA3 wireless security.
-- Wireless access points covering the office.
+### Cybersecurity Policy
 
-### Internet Connectivity
+* Password policy
+* Multi-factor authentication
+* Device encryption
+* Antivirus requirements
+* Patch management
+* Acceptable use policy
 
-Requirements:
+### Risk Assessment Matrix
 
-- High-speed fiber internet.
-- Business-grade ISP service.
-- Backup internet connection for redundancy.
+Threat analysis including:
 
-### Shared Resources
+* Phishing attacks
+* Ransomware
+* Hardware failure
+* Power outages
+* Data breaches
 
-The network should support:
+### Incident Response Plan
 
-- Shared printers.
-- Shared file storage.
-- Shared cloud services.
-- Centralized authentication systems.
+1. Detection
+2. Reporting
+3. Containment
+4. Eradication
+5. Recovery
+6. Lessons Learned
 
-### Remote Access
+### Security Awareness Training
 
-The company may require:
+* Password security
+* Phishing awareness
+* Safe internet usage
+* Device security
+* Incident reporting
 
-- VPN access for remote employees.
-- Secure remote desktop access.
-- Cloud-based collaboration tools.
+---
 
+## Week 4 – Career Readiness and Project Presentation
 
-## Operational Challenges
-As the organization grows, several operational challenges may arise.
+### Professional Documents
 
-### Rapid Business Growth
-Challenges:
+* Resume (CV)
+* Cover Letter
+* LinkedIn Profile Summary
 
-- Increased number of employees.
-- Higher network traffic.
-- More devices requiring management.
+### Interview Preparation
 
-Solution:
+* IT Support interview questions
+* Technical responses
+* Professional communication preparation
 
-- Scalable infrastructure design.
-- Cloud-ready services.
-- Expandable networking equipment.
+### Final Project Report
 
-### Cybersecurity Threats
-Challenges:
+Comprehensive consolidation of all project deliverables.
 
-- Malware attacks.
-- Phishing emails.
-- Data breaches.
-- Unauthorized access.
+### Presentation
 
-Solution:
+Professional presentation summarizing:
 
-- Security awareness training.
-- Endpoint protection.
-- MFA implementation.
-- Regular software updates.
-  
-### Data Loss Risks
-Challenges:
+* Infrastructure design
+* Security implementation
+* Backup strategy
+* Risk management
+* Troubleshooting procedures
+* Recommendations
 
-- Hardware failures.
-- Accidental deletion.
-- Ransomware attacks.
+---
 
-Solution:
+# Key Technologies and Concepts
 
-- Automated backups.
-- Disaster recovery plans.
-- Cloud backup solutions.
-  
-### Network Downtime
-Challenges:
+## Networking
 
-- Internet outages.
-- Hardware failures.
-- Misconfigured systems.
+* TCP/IP
+* Subnetting
+* Network Segmentation
+* VLAN Concepts
+* DNS
+* DHCP
+* Wireless Networking
 
-Solution:
+## Operating Systems
 
-- Redundant internet connections.
-- Spare networking equipment.
-- Documented troubleshooting procedures.
+* Windows 11 Pro
+* Ubuntu Linux
 
-### IT Support and Documentation
-Challenges:
+## Security
 
-- Future IT staff may struggle without documentation.
-- Troubleshooting may take longer without standard procedures.
+* MFA
+* Encryption
+* Antivirus Protection
+* Firewall Management
+* Access Control
 
-Solution:
+## Backup and Recovery
 
-- Create detailed network diagrams.
-- Maintain asset inventories.
-- Develop troubleshooting guides.
-- Document user account procedures and security policies.
+* Incremental Backups
+* Full Backups
+* Cloud Backups
+* Disaster Recovery Planning
 
-### Access Management Complexity
-Challenges:
+## Development Tools
 
-- Managing permissions across departments.
-- Preventing unauthorized access.
+* GitHub
+* Visual Studio Code
+* Docker
+* Microsoft 365
 
-Solution:
+---
 
-- Centralized directory services.
-- Role-based access control.
-- Regular access audits.
+# Repository Structure
+
+```text
+Ubuntu-IT-Support-Capstone/
+│
+├── Documentation/
+├── Hardware-Inventory/
+├── Software-Inventory/
+├── Network-Diagrams/
+├── Troubleshooting/
+├── Security/
+├── Backup-Recovery/
+├── Presentation/
+├── Career-Readiness/
+└── Final-Report/
+```
+
+---
+
+# Project Outcomes
+
+This capstone project demonstrates practical skills in:
+
+* IT Support
+* Network Design
+* System Administration
+* Cybersecurity
+* Troubleshooting
+* Documentation
+* Disaster Recovery Planning
+* Professional Communication
+
+The project provides a complete IT infrastructure solution that aligns with industry best practices while addressing the operational, security, and business needs of Ubuntu Innovations (Pty) Ltd.
+
+---
+
+# Authors
+Semoshwe Mapokgole
+Sibahle Lottering
+Ntando Badla
